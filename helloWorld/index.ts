@@ -1,3 +1,5 @@
-let greeting: string = "Hallo Welt! ";
+var greeting: string = "Hallo Welt!";
 console.log(greeting);
+
+
 
