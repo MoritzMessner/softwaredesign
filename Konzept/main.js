@@ -1,4 +1,4 @@
-var message = prompt("Nochricht eingeben");
+var message = prompt("Nachricht eingeben");
 var splitMsg = message.split(" ");
 // verstehe ich nicht out1
 var out1 = rotateLetters(splitMsg);
