@@ -14,7 +14,7 @@ namespace KonzeptGedicht {
     }
 
     function getVers(): void {
-        let randomeSubjectNumber: number = Math.floor(Math.random() * subjects.length);
+        let randomeSubjectNumber: number = Math.floor(Math.random() * subjects.length); //Not randome right is random
         let randomeSubject: string = subjects[randomeSubjectNumber];
         subjects.splice(randomeSubjectNumber, 1);
 
