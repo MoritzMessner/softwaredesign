@@ -3,7 +3,7 @@ namespace KonzeptGedicht {
     let verbs: string[] = ["braut", "liebt", "studiert", "hasst", "zaubert", "zerstört"];
     let objects: string[] = ["Zaubertränke", "den Grimm", "Lupin", "Hogwards", "die Karte des Rumtreibers", "Dementoren"];
     let verses: string[] = [];
-    let subjectLength: number = subjects.length;
+    let subjectLength: number = subjects.length; //better plural for subjects
 
     for (let i: number = 0; i < subjectLength; i++) {
         getVers();
